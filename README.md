@@ -1,180 +1,294 @@
-#Tamil-Nadu-Election-Analysis
-##Project Overview
-This project analyzes Tamil Nadu Assembly Election results by comparing the 2021 and 2026 election datasets. The objective is to identify political shifts, party performance, seat retention, seat flips, regional dominance, and constituency-level competitiveness using Data Analytics techniques.
+# 🗳️ Tamil Nadu Election Analysis (2021 vs 2026)
 
-##Problem Statement
-Analyze election results across 234 Assembly Constituencies in Tamil Nadu and answer the following business questions:
+## 📌 Project Overview
 
-Which party won the highest number of seats?
-How many seats changed hands between elections?
-Which constituencies witnessed the closest contests?
-Which constituencies had the highest victory margins?
-Which regions are dominated by specific political parties?
-What percentage of constituencies retained the same winning party?
-##Dataset Information
-Files Used
-tn_2021_results.csv
-Election results for Tamil Nadu Assembly Elections 2021.
+This project analyzes the Tamil Nadu Assembly Election results by comparing the **2021** and **2026** election datasets.
 
-tn_2026_results.csv
-Election results for Tamil Nadu Assembly Elections 2026.
+The objective is to identify:
 
-constituency_master.csv
-Master reference file containing constituency details, district, region, and reservation category.
+- Political shifts between elections
+- Party performance trends
+- Seat retention and seat flips
+- Regional political dominance
+- Constituency-level competitiveness
+- Victory margin analysis
 
-##Tools Used
-Tool	Purpose
-Excel	Data exploration
-Power Query	ETL and data transformation
-Databricks SQL	Analytical querying
-Power BI	Dashboard development
-GitHub	Project documentation
-##Project Workflow
-Raw Data (CSV Files)
+The project demonstrates the end-to-end Data Analytics workflow using **Excel, Power Query, Databricks SQL, Power BI, and GitHub**.
 
-↓
+---
 
+## 🎯 Business Problem Statement
+
+Analyze election results across **234 Assembly Constituencies** in Tamil Nadu and answer the following questions:
+
+- Which party won the highest number of seats?
+- How many seats changed hands between elections?
+- Which constituencies witnessed the closest contests?
+- Which constituencies recorded the highest victory margins?
+- Which regions are dominated by specific political parties?
+- What percentage of constituencies retained the same winning party?
+
+---
+
+## 📂 Dataset Information
+
+### Files Used
+
+| File Name | Description |
+|------------|-------------|
+| tn_2021_results.csv | Tamil Nadu Assembly Election Results 2021 |
+| tn_2026_results.csv | Tamil Nadu Assembly Election Results 2026 |
+| constituency_master.csv | Constituency reference data containing district, region, and reservation category |
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+| Tool | Purpose |
+|--------|----------|
+| Excel | Data Exploration |
+| Power Query | ETL & Data Transformation |
+| Databricks SQL | Analytical Querying |
+| Power BI | Dashboard Development |
+| GitHub | Project Documentation & Version Control |
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw CSV Files
+      │
+      ▼
 Power Query ETL
-
-↓
-
+      │
+      ▼
 Analytical Tables
-
-↓
-
+      │
+      ▼
 Databricks SQL Analysis
-
-↓
-
+      │
+      ▼
 Power BI Dashboard
-
-↓
-
+      │
+      ▼
 Business Insights
+```
 
-ETL Process (Power Query)
-The following transformations were performed:
+---
 
-##Data Cleaning
-Verified column names
-Checked data consistency
-Validated constituency mapping
-Data Transformation
-Grouped candidates by constituency
-Identified winners
-Identified runner-up candidates
-Calculated victory margins
-Compared election outcomes across years
-##Analytical Tables Created
-Winner_Table_2021
-Contains winning candidate information for all 234 constituencies.
+## 🧹 ETL Process (Power Query)
 
-Winner_Table_2026
-Contains winning candidate information for all 234 constituencies.
+### Data Cleaning
 
-RunnerUp_Table_2021
-Contains second-position candidate information.
+- Verified column names
+- Checked data consistency
+- Validated constituency mapping
+- Removed duplicate records
+- Standardized data formats
 
-RunnerUp_Table_2026
-Contains second-position candidate information.
+### Data Transformation
 
-Margin_Table_2021
-Contains victory margin calculations.
+- Grouped candidates by constituency
+- Identified winners
+- Identified runner-up candidates
+- Calculated victory margins
+- Compared election outcomes across years
 
-Margin_Table_2026
-Contains victory margin calculations.
+---
 
-Election_Comparison_Table
-Compares election outcomes between 2021 and 2026 and classifies constituencies as:
+## 📊 Analytical Tables Created
 
-Retained
-Flipped
-##SQL Analysis (Databricks)
-The following SQL analyses were performed:
+### Winner Tables
 
-1. Party-wise Seat Share
-Objective: Determine the number of seats won by each party.
+- Winner_Table_2021
+- Winner_Table_2026
 
-2. Seat Flip Analysis
-Objective: Identify how many constituencies changed political control.
+Contains winning candidate details for all constituencies.
 
-3. Largest Victory Margins
-Objective: Identify constituencies with the highest victory margins.
+### Runner-Up Tables
 
-4. Closest Electoral Contests
-Objective: Identify highly competitive constituencies.
+- RunnerUp_Table_2021
+- RunnerUp_Table_2026
 
-5. Region-wise Party Performance
-Objective: Analyze regional political dominance.
+Contains second-position candidate details.
 
-6. Average Winning Margin Analysis
-Objective: Compare average victory margins across political parties.
+### Margin Tables
 
-##Key Findings
-Election Summary
-Total Constituencies: 234
-Flipped Seats: 163
-Retained Seats: 71
-Flip Percentage: 69.66%
-This indicates significant political change between the two elections.
+- Margin_Table_2021
+- Margin_Table_2026
 
-##Party Performance
-Key observations from party-wise seat share analysis.
+Contains constituency-wise victory margin calculations.
 
-##Regional Analysis
+### Election Comparison Table
+
+Classifies constituencies into:
+
+- Retained
+- Flipped
+
+---
+
+## 🗄️ SQL Analysis Performed
+
+### 1. Party-wise Seat Share Analysis
+
+**Objective:** Determine seats won by each political party.
+
+### 2. Seat Flip Analysis
+
+**Objective:** Identify constituencies that changed political control.
+
+### 3. Largest Victory Margins
+
+**Objective:** Find constituencies with the highest winning margins.
+
+### 4. Closest Electoral Contests
+
+**Objective:** Identify highly competitive constituencies.
+
+### 5. Region-wise Party Performance
+
+**Objective:** Analyze regional political dominance.
+
+### 6. Average Winning Margin Analysis
+
+**Objective:** Compare average victory margins across political parties.
+
+---
+
+## 🔍 Key Findings
+
+### Election Summary
+
+| Metric | Value |
+|----------|----------|
+| Total Constituencies | 234 |
+| Flipped Seats | 163 |
+| Retained Seats | 71 |
+| Flip Percentage | 69.66% |
+
+### Insights
+
+- Nearly 70% of constituencies changed political control.
+- Significant political shifts were observed between elections.
+- Several constituencies witnessed highly competitive contests.
+- Certain regions continued to remain party strongholds.
+
+---
+
+## 🌍 Regional Analysis
+
 Regional performance was analyzed across:
 
-Chennai Metro
-North
-Central
-Kongu
-Delta
-South
-Margin Analysis
-###Victory margins were analyzed to identify:
+- Chennai Metro
+- North Tamil Nadu
+- Central Tamil Nadu
+- Kongu Region
+- Delta Region
+- South Tamil Nadu
 
-Stronghold constituencies
-Swing constituencies
-Highly competitive seats
-##Power BI Dashboard
-The dashboard consists of four major sections.
+The analysis helped identify regional party dominance and changing voter preferences.
 
-###Page 1: Election Overview
-KPIs:
+---
 
-Total Seats
-Flipped Seats
-Retained Seats
-Flip Percentage
-Visuals:
+## 📈 Margin Analysis
 
-Donut Chart (Flipped vs Retained)
-Party Seat Distribution
-###Page 2: Party Analysis
-Visuals:
+Victory margin analysis was performed to identify:
 
-Seats Won (2021 vs 2026)
-Party Gain/Loss Analysis
-###Page 3: Region Analysis
-Visuals:
+- Stronghold Constituencies
+- Swing Constituencies
+- Highly Competitive Seats
+- Largest Victory Margins
+- Closest Electoral Contests
 
-Region-wise Seat Distribution
-Party Dominance by Region
-###Page 4: Margin Analysis
-##Visuals:
+---
 
-Top 10 Largest Victory Margins
-Top 10 Closest Contests
-Skills Demonstrated
-Data Cleaning
-Data Transformation
-Data Modeling
-SQL Querying
-Dashboard Development
-Data Visualization
-Business Insight Generation
-Election Data Analytics
-##Author
-Richa Kaushik
+## 📊 Power BI Dashboard
 
-Data Analytics
+The dashboard contains four analytical pages.
+
+### Page 1 – Election Overview
+
+#### KPIs
+
+- Total Seats
+- Flipped Seats
+- Retained Seats
+- Flip Percentage
+
+#### Visuals
+
+- Donut Chart (Flipped vs Retained)
+- Party Seat Distribution
+
+---
+
+### Page 2 – Party Analysis
+
+#### Visuals
+
+- Seats Won (2021 vs 2026)
+- Party Gain/Loss Analysis
+
+---
+
+### Page 3 – Region Analysis
+
+#### Visuals
+
+- Region-wise Seat Distribution
+- Party Dominance by Region
+
+---
+
+### Page 4 – Margin Analysis
+
+#### Visuals
+
+- Top 10 Largest Victory Margins
+- Top 10 Closest Contests
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- ETL Development
+- SQL Querying
+- Data Modeling
+- Power BI Dashboarding
+- Data Visualization
+- Business Insight Generation
+- Election Data Analytics
+- GitHub Documentation
+
+---
+
+## 🚀 Project Outcome
+
+This project demonstrates how election data can be transformed into actionable insights through a complete analytics workflow involving ETL, SQL analysis, dashboard development, and business storytelling.
+
+---
+
+## 👩‍💻 Author
+
+**Richa Kaushik**
+
+Aspiring Data Analyst skilled in:
+
+- Excel
+- Power Query
+- SQL
+- Power BI
+- Data Visualization
+- Business Analytics
+
+### Connect with Me
+
+- LinkedIn: [Add Your LinkedIn URL]
+- GitHub: [Add Your GitHub Profile URL]
+
+---
+⭐ If you found this project useful, consider giving it a star!
