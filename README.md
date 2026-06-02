@@ -276,19 +276,4 @@ This project demonstrates how election data can be transformed into actionable i
 
 **Richa Kaushik**
 
-Aspiring Data Analyst skilled in:
-
-- Excel
-- Power Query
-- SQL
-- Power BI
-- Data Visualization
-- Business Analytics
-
-### Connect with Me
-
-- LinkedIn: [Add Your LinkedIn URL]
-- GitHub: [Add Your GitHub Profile URL]
-
----
-⭐ If you found this project useful, consider giving it a star!
+Data Analyst
