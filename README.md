@@ -42,7 +42,7 @@ Analyze election results across **234 Assembly Constituencies** in Tamil Nadu an
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 | Tool | Purpose |
 |--------|----------|
@@ -257,7 +257,7 @@ The dashboard contains four analytical pages.
 
 ---
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
