@@ -221,6 +221,9 @@ The dashboard contains four analytical pages.
 
 - Donut Chart (Flipped vs Retained)
 - Party Seat Distribution
+  
+<img width="1382" height="782" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/ba27a039-4d66-4874-985b-627fbd349997" />
+
 
 ---
 
@@ -230,6 +233,7 @@ The dashboard contains four analytical pages.
 
 - Seats Won (2021 vs 2026)
 - Party Gain/Loss Analysis
+<img width="1376" height="777" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/2ebf693a-e5e0-4dc1-9abb-b1f1a4c4c98a" />
 
 ---
 
@@ -239,6 +243,7 @@ The dashboard contains four analytical pages.
 
 - Region-wise Seat Distribution
 - Party Dominance by Region
+<img width="1359" height="720" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/1426088a-523e-48ce-adb8-ccd820be693e" />
 
 ---
 
@@ -248,6 +253,7 @@ The dashboard contains four analytical pages.
 
 - Top 10 Largest Victory Margins
 - Top 10 Closest Contests
+<img width="1371" height="764" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/b7fe261e-cb75-4302-a5a7-573e565d50b8" />
 
 ---
 
