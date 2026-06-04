@@ -1,6 +1,6 @@
-# 🗳️ Tamil Nadu Election Analysis (2021 vs 2026)
+#  Tamil Nadu Election Analysis (2021 vs 2026)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes the Tamil Nadu Assembly Election results by comparing the **2021** and **2026** election datasets.
 
@@ -17,7 +17,7 @@ The project demonstrates the end-to-end Data Analytics workflow using **Excel, P
 
 ---
 
-## 🎯 Business Problem Statement
+##  Business Problem Statement
 
 Analyze election results across **234 Assembly Constituencies** in Tamil Nadu and answer the following questions:
 
@@ -30,7 +30,7 @@ Analyze election results across **234 Assembly Constituencies** in Tamil Nadu an
 
 ---
 
-## 📂 Dataset Information
+##  Dataset Information
 
 ### Files Used
 
@@ -54,7 +54,7 @@ Analyze election results across **234 Assembly Constituencies** in Tamil Nadu an
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```text
 Raw CSV Files
@@ -77,7 +77,7 @@ Business Insights
 
 ---
 
-## 🧹 ETL Process (Power Query)
+##  ETL Process (Power Query)
 
 ### Data Cleaning
 
@@ -97,7 +97,7 @@ Business Insights
 
 ---
 
-## 📊 Analytical Tables Created
+##  Analytical Tables Created
 
 ### Winner Tables
 
@@ -129,7 +129,7 @@ Classifies constituencies into:
 
 ---
 
-## 🗄️ SQL Analysis Performed
+##  SQL Analysis Performed
 
 ### 1. Party-wise Seat Share Analysis
 
@@ -157,7 +157,7 @@ Classifies constituencies into:
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Election Summary
 
@@ -177,7 +177,7 @@ Classifies constituencies into:
 
 ---
 
-## 🌍 Regional Analysis
+##  Regional Analysis
 
 Regional performance was analyzed across:
 
@@ -192,7 +192,7 @@ The analysis helped identify regional party dominance and changing voter prefere
 
 ---
 
-## 📈 Margin Analysis
+##  Margin Analysis
 
 Victory margin analysis was performed to identify:
 
@@ -204,7 +204,7 @@ Victory margin analysis was performed to identify:
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The dashboard contains four analytical pages.
 
@@ -272,13 +272,13 @@ The dashboard contains four analytical pages.
 
 ---
 
-## 🚀 Project Outcome
+##  Project Outcome
 
 This project demonstrates how election data can be transformed into actionable insights through a complete analytics workflow involving ETL, SQL analysis, dashboard development, and business storytelling.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Richa Kaushik**
 
